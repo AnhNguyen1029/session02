@@ -1,2 +1,5 @@
-package Ra.demo1;public class MakeColor {
+package Ra.demo1;
+
+public class MakeColor {
+
 }

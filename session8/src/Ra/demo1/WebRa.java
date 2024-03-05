@@ -1,2 +1,4 @@
-package Ra.demo1;public class WebRa {
+package Ra.demo1;
+
+public class WebRa {
 }

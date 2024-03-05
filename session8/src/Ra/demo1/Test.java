@@ -1,2 +1,4 @@
-package Ra.demo1;public class Test {
+package Ra.demo1;
+
+public class Test {
 }
