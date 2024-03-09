@@ -9,7 +9,7 @@ public class BaiTap {
 //        =====Bài tâp===
 //        1. Nhap vao ma sinh vien
 //        2. Nhap vao ho ten
-//        3. so diejnd thoại
+//        3. số điện thoại
 //        4. Nhập vào ngày tháng năm sinh
 //        5. In thông tin sinh vien
 //

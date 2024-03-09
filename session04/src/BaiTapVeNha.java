@@ -73,10 +73,13 @@ public class BaiTapVeNha {
                     }
                     break;
                 case 5:
+                    if (row != col){
+                        System.out.println("không có đường chéo phụ :");
+                    }else {
                     System.out.println("Các giá trị trên đường chéo phụ là :");
                     for (int i = 0; i < matrix.length; i++) {
                         for (int j = 0; j < matrix[i].length; j++) {
-                            if ((i + j) == matrix.length-1) {
+                            if ((i + j) == matrix[i].length-1) {
                                 System.out.println(matrix[i][j]);
                             }else {
                                 System.out.print("    ");
@@ -84,6 +87,7 @@ public class BaiTapVeNha {
                         }
                         System.out.println(" ");
                         System.out.println("  ");
+                    }
                     }
                     break;
 

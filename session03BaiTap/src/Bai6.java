@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Bai6 {
@@ -51,6 +52,9 @@ public class Bai6 {
                 }
                 break;
             case 6:
+                if (num1 == 0 && num2 == 0){
+                    System.out.println("Ước chung lớn nhất là :∞");
+                }else
                 if (num1 ==0 || num2 ==0){
                     System.out.println("Ước chung lớn Nhất là : "+(num1+num2));
                 }else {
