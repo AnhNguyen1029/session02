@@ -1,4 +1,4 @@
-package ra.itf;
+package ra.run;
 
 import java.util.Scanner;
 
